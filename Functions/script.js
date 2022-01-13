@@ -52,7 +52,8 @@ function FruitProccessor(apples, oranges) {
   return juice;
 }
 let AverageScore = 0;
-// Coding Challenge
+// Coding Challenge+
+
 function CalculateAverage(amount) {
   let counter = 0;
   let scores = [];
