@@ -51,25 +51,24 @@ function FruitProccessor(apples, oranges) {
 
   return juice;
 }
-let AverageScore = [Number("")];
+let AverageScore = 0;
 // Coding Challenge
 function CalculateAverage(amount) {
   let counter = 0;
-  const scores = [];
+  let scores = [];
   let index = 0;
   while (counter <= 2) {
-    amount += prompt("What are doing?");
-    scores.push(`${amount}`);
-
+    index = amount;
+    index += prompt("What are doing?");
+    scores.push(`${index}`);
+    index++;
     counter++;
   }
   amount + 1;
 
   for (let i = 0; i < scores.length; ++i) {
-    let newscore = scores.push(i);
-    console.log(`The total average is: ${newscore[i]}`);
+    console.log(`The total average is: ${scores[i]}`);
   }
-  return scores;
 }
 // Coding Challenge
 //------------// Arrays //--------------------------------------------Arrays------------//
