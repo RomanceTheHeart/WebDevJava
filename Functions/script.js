@@ -62,14 +62,15 @@ function CalculateAverage(amount) {
     index = amount;
     index += prompt("What are doing?");
     scores.push(`${index}`);
-    index++;
     counter++;
   }
   amount + 1;
 
+  let sum = 0;
   for (let i = 0; i < scores.length; ++i) {
-    console.log(`The total average is: ${scores[i]}`);
+    Number((sum += +scores[i]));
   }
+  console.log(`The total average is: ${sum / 3}`);
 }
 // Coding Challenge
 //------------// Arrays //--------------------------------------------Arrays------------//
