@@ -60,7 +60,7 @@ function CalculateAverage(amount) {
   let index = 0;
   while (counter <= 2) {
     index = amount;
-    index += prompt("What are doing?");
+    index += prompt("Enter Scores: ");
     scores.push(`${index}`);
     counter++;
   }
@@ -165,4 +165,4 @@ for (let i = 0; i <= friends.length; ++i) {
 console.log(CalcutlateTip(70));
 
 //-------------------//Objects
-CalculateAverage(AverageScore);
+//CalculateAverage(AverageScore);
