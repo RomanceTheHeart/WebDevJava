@@ -1,4 +1,5 @@
 "use strict";
+
 /* This sections discusses fucntions implementation in JavaScript.
  */
 function GetIntert() {
