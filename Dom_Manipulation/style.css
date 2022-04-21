@@ -94,3 +94,11 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+.again {
+  bottom: 10rem;
+  transform: translate(0%, 0%);
+}
+.check {
+  align-items: top;
+  transform: translate(0%, 0%);
+}
