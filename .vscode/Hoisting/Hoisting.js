@@ -1,3 +1,4 @@
+"use strict";
 // Function example:
 // This is an example of how Javascript
 // works behind the scene.
@@ -7,6 +8,8 @@ function addFunction(a, b) {
   return a + b;
 }
 
+//-------------------------------------------------------------------------
+
 //This is a function expression.
 //This expression can not implement the hoisting
 // feature of JavaSctipt.
@@ -15,6 +18,7 @@ const addExpression = function (a, b) {
   return a + b;
 };
 
+//-------------------------------------------------------------------------
 // this is an arrow function.
 // the arrowo returns the value of a + b
 // implisitly.
